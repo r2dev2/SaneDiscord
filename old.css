@@ -1,0 +1,40 @@
+/**
+ * Backup of css vars
+ *
+ * --background-modifier-accent: TODO
+ * --text-muted: TODO
+ */
+
+/* Top one when you inspect the styles */
+.reactionInner-15NvIl {
+  padding: 0rem 0.375rem;
+}
+
+/* The next one when you inspect reaction inner styles */
+.reaction-1hd86g {
+  border-radius: 0.25rem;
+  margin-right: 0.125rem;
+  margin-left: 0.125rem;
+  background: var(--background-modifier-accent);
+  border: 0px !important;
+  /* TODO add the transition that i sent to kento in dm */
+}
+
+.reaction-1hd86g:hover {
+  background: var(--background-modifier-accent) !important;
+  border: 0px !important;
+}
+
+/* The count div child of reactionInner */
+.reactionCount-2mvXRV {
+  color: var(--text-muted);
+}
+
+/* The class when you react with an emote */
+.reactionMe-wv5HKu, .reactionMe-wv5HKu:hover  {
+  background-color: rgba(114,137,218,.3) !important;
+}
+
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+  color: #7289da !important;
+}
